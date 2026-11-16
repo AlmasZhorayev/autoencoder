@@ -28,11 +28,12 @@ MNIST downloads automatically on first run.
 
 | latent | sigma | final train loss | observation |
 |--------|-------|------------------|-------------|
-| 32     | 0.3   |   0.025          | baseline    |
+| 32     | 0.3   |   0.0245         | baseline    |
 | 2      | 0.3   |   0.0516         | clearer image but less precise and lower quality |
 | 32     | 0.6   | 0.0340           | better quality, low precision |
 
-[Embed 1-2 comparison images here]
+![latent=2](results/latent2_sigma0.3.png)
+![sigma=0.6](results/latent32_sigma0.6.png)
 
 ## What I learned
 
