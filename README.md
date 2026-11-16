@@ -4,7 +4,7 @@ A small PyTorch denoising autoencoder trained on a 10,000-image subset of MNIST.
 The model receives a noisy digit and learns to reconstruct the clean original.
 Built as a first project for learning [your research area / lab topic].
 
-![Denoising results](results/latent32_sigma0.3.png)
+![Denoising results](results.png)
 *Top: clean test images. Middle: with Gaussian noise (σ = 0.3). Bottom: model output.*
 
 ## How it works
@@ -32,14 +32,12 @@ MNIST downloads automatically on first run.
 | 2      | 0.3   | [fill in]        | [what changed?] |
 | 32     | 0.6   | [fill in]        | [what changed?] |
 
-[Embed 1-2 comparison images here.]
+[Embed 1-2 comparison images here]
 
 ## What I learned
 
-[2-4 sentences in your own words: what the bottleneck does, what happened when
-latent was tiny, where denoising broke down.]
+[to finish]
 
 ## Next steps
 
 - Try a convolutional autoencoder
-- [anything your PhD student suggests]
