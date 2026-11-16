@@ -29,7 +29,7 @@ MNIST downloads automatically on first run.
 | latent | sigma | final train loss | observation |
 |--------|-------|------------------|-------------|
 | 32     | 0.3   |   0.025          | [baseline]  |
-| 2      | 0.3   | [fill in]        | [what changed?] |
+| 2      | 0.3   |   0.0516         | [what changed?] |
 | 32     | 0.6   | [fill in]        | [what changed?] |
 
 [Embed 1-2 comparison images here]
