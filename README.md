@@ -28,9 +28,9 @@ MNIST downloads automatically on first run.
 
 | latent | sigma | final train loss | observation |
 |--------|-------|------------------|-------------|
-| 32     | 0.3   |   0.025          | [baseline]  |
-| 2      | 0.3   |   0.0516         | less precise, less quality |
-| 32     | 0.6   | [fill in]        | [what changed?] |
+| 32     | 0.3   |   0.025          | baseline    |
+| 2      | 0.3   |   0.0516         | clearer image but less precise and lower quality |
+| 32     | 0.6   | 0.0340           | better quality, low precision |
 
 [Embed 1-2 comparison images here]
 
