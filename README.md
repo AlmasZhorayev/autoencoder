@@ -26,16 +26,22 @@ MNIST downloads automatically on first run.
 
 ## Experiments
 
+Each run changes a single variable from the baseline ('latent=32', 'sigma=0.3)
+
 | latent | sigma | final train loss | observation |
 |--------|-------|------------------|-------------|
 | 32     | 0.3   |   0.0245         | baseline    |
 | 2      | 0.3   |   0.0516         | clearer image but less precise|
 | 32     | 0.6   | 0.0340           | better quality, low precision |
 
-latent = 2
+### Effect of latent size
 ![latent=2](results/latent2_sigma0.3.png)
-sigma = 0.6
+*Smooth and clean outputs, but often gets the number wrong*
+
+### Effect of noise level
+
 ![sigma=0.6](results/latent32_sigma0.6.png)
+*Cleaner outputs but sometimes gets the number wrong*
 
 ## What I learned
 
