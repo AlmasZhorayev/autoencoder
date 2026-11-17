@@ -48,7 +48,9 @@ Each run changes a single variable from the baseline ('latent=32', 'sigma=0.3)
 
 ## What I learned
 
-[to finish]
+latent reflect model's capacity. it's important to find the optimal latent value such that it's not too small (to be able to store information) and not too big (model just copies data and doesn't learn anything). 
+
+sigma reflects the noise. higher values lead to unclear input and the model has to guess more.
 
 ## Next steps
 
