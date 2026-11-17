@@ -33,14 +33,14 @@ Each run changes a single variable from the baseline ('latent=32', 'sigma=0.3)
 | 32     | 0.3   |   0.0245         | baseline    |
 | 2      | 0.3   |   0.0516         | clearer image but less precise|
 | 32     | 0.6   | 0.0340           | better quality, low precision |
-| 128    | 0.3   |   0.0222         |             |
+| 128    | 0.3   |   0.0222         | better quality, better precision |
 
 ### Effect of latent size
 ![latent=2](results/latent2_sigma0.3.png)
 *Smooth and clean outputs, but often gets the number wrong*
 
 ![latent=128](results/latent128_sigma0.3.png)
-
+*image is very clean and numbers are correctly identified*
 ### Effect of noise level
 
 ![sigma=0.6](results/latent32_sigma0.6.png)
