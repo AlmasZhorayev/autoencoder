@@ -39,6 +39,8 @@ Each run changes a single variable from the baseline ('latent=32', 'sigma=0.3)
 ![latent=2](results/latent2_sigma0.3.png)
 *Smooth and clean outputs, but often gets the number wrong*
 
+![latent=128](results/latent128_sigma0.3.png)
+
 ### Effect of noise level
 
 ![sigma=0.6](results/latent32_sigma0.6.png)
