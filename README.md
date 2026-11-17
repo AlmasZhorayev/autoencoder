@@ -33,6 +33,7 @@ Each run changes a single variable from the baseline ('latent=32', 'sigma=0.3)
 | 32     | 0.3   |   0.0245         | baseline    |
 | 2      | 0.3   |   0.0516         | clearer image but less precise|
 | 32     | 0.6   | 0.0340           | better quality, low precision |
+| 128    | 0.3   |   0.0222         |             |
 
 ### Effect of latent size
 ![latent=2](results/latent2_sigma0.3.png)
